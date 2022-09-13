@@ -4,7 +4,10 @@ import { setupCounter } from './counter'
 
 
 import { name, age } from './bases/01-types';
-import { charmy } from './bases/02-clases';
+// import { charmy } from './bases/02-clases';
+// import { charmander } from './bases/03-inyection';
+// import { pikachu } from './bases/04-decorators';
+import { raichu } from './bases/05-decorators2';
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -21,7 +24,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more ${ name } cuya edad es ${ age }
-      Mi poke es ${ charmy.name }
+      Mi poke es ${ raichu.name }
     </p>
   </div>
 `
